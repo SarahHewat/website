@@ -33,7 +33,9 @@ h1 {text-align: center;
         margin-right: 20%;
         font-style:inherit ;}
 
-@media screen and (max-width: 600px) {
+
+ @media screen and (max-width: 600px) {
+   
     nav a {
         display: block;
         margin: 10px 0;
@@ -41,30 +43,39 @@ h1 {text-align: center;
     }
 
     h1, h2, h3 {
-        font-size: 1.2em;
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    p {
-        padding: 0 10px;
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
         font-size: 1em;
     }
 
-    footer {
-    background-color: rgba(12, 12, 12, 0.422);
-    padding: 10px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: white;
-    margin-top: 20px;
-}
+    p {
+        font-size: 0.9em;
+        padding: 0 10px;
     }
+
+
+    footer {
+        font-size: 0.8em;
+        padding: 10px;
+        position: relative;
+    }
+
     img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
