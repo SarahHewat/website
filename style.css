@@ -66,14 +66,5 @@ h1 {text-align: center;
     height: auto;
     display: block;
     margin: 0 auto;
-
-    h3 {
-    text-align: center;
-    color: white;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-style: inherit;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
-}
 }
 
